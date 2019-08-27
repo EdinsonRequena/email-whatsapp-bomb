@@ -12,7 +12,7 @@ sys
 
 ### Tutorial 📖
 
-The tutorial is under construction
+Yo can see the tutorial on Medium [here](https://medium.com/@edinsonrequena/tutorial-qu%C3%A9-es-un-email-bomb-attack-y-como-crearlo-con-python-3-c566d688944a?source=---------2------------------)
 
 ### Author ✒️
 
