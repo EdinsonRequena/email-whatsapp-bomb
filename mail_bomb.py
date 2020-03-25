@@ -34,7 +34,7 @@ def draw():
  ''')
 
 
-class Email_Bomb:
+class EmailBomb:
     count = 0
 
     def __init__(self):
@@ -120,10 +120,14 @@ class Email_Bomb:
         print(colors.RED + '\n The target was bombed')
         sys.exit(0)
 
+class BombApp:
+
+    def execute(self):
+        draw()
+        bomb = EmailBomb()
+        bomb.bomb()
+        bomb.email()
+        bomb.fireworks()
 
 if __name__=='__main__':
-    draw()
-    bomb = Email_Bomb()
-    bomb.bomb()
-    bomb.email()
-    bomb.fireworks()
+    BombApp().execute()
